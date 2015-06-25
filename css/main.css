@@ -6,13 +6,14 @@ body {
 	font-family: Lato, 'Helvetica Heue', Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
-	background-image: url("/img/background.jpg");
+	background-image: url("../img/background.jpg");
+	background-image-size: cover;
 	background-attachment: fixed;
 }
 
 main {
 	margin: 20px 20px 20px 30%;
-	background-image: url("/img/ricepaper_v3.png");
+	background-image: url("../img/ricepaper_v3.png");
 	opacity: 0.9;
 }
 
@@ -57,12 +58,12 @@ footer {
 
 h1, h2, h3 {
 	font-family: Raleway, 'Helvetica Heue', Helvetica, sans-serif;
+	font-weight: 300;
 }
 
 h1 {
 	font-size: 300%;
 	margin: 0;
-	font-weight: normal;
 }
 
 h2 {
@@ -96,7 +97,7 @@ a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 } 
 
-a:hover {
+a:hover, input:focus {
 	color: #0000EE;
 	text-decoration: none;
 }
